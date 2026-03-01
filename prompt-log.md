@@ -1,0 +1,39 @@
+
+**Claude Code 6**>Remove rows with many NUL from Meteo/18_0904_0908/2025-09-06ECS.txt 2025-09-07ECS.txt and 2025-09-08ECS.txt
+
+---
+
+**Claude Code 5**>Remove rows with many NUL from Meteo/18_0904_0908/2025-09-05ECS.txt
+
+---
+
+**Claude Code 4**>Update Meteo.py to iterate on the files from Meteo/18_0904_0908, create the pngs and store them in Meteo/18_0904_0908out
+
+---
+
+**Claude Code 3**>Update Meteo.py to save image as Meteo/18_0904_0908out/2025-09-04ECS.png
+
+---
+
+pip install pandas matplotlib
+
+
+**Claude Code 2**>PyCharm ERROR: 
+```
+D:\work\mircea\1-Projects\ceg4166.venv\Scripts\python.exe D:\work\cristianBivolaru\Meteo\src\Meteo.py
+Traceback (most recent call last):
+File "D:\work\cristianBivolaru\Meteo\src\Meteo.py", line 1, in <module>
+import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+Process finished with exit code 1
+```
+
+--- 
+
+**Claude Code 1**>Update Meteo.py from Meteo.ipynb. It should use data from [2025-09-04ECS.txt](18_0904_0908/2025-09-04ECS.txt)
+
+--- 
+
+2026-03-01
+
+---
