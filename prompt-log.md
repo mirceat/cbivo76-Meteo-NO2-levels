@@ -1,3 +1,30 @@
+**Claude Code 11**>Remove rows with many NUL from 
+`D:\work\cristianBivolaru\cbivo76-Meteo-NO2-levels\Gas_vers_scurta\2025-08-26ECS.txt`
+
+---
+
+**Claude Code 10**>Remove rows with many NUL from 
+`D:\work\cristianBivolaru\cbivo76-Meteo-NO2-levels\Gas_vers_scurta\2025-08-21ECS.txt`
+
+---
+
+**Claude Code 9**>Remove rows with many NUL from 
+`D:\work\cristianBivolaru\cbivo76-Meteo-NO2-levels\Gas_vers_scurta\2025-08-18ECS.txt`
+
+---
+
+**Claude Code 8**>Write a new file inspired by Meteo.py that should work for `D:\work\cristianBivolaru\cbivo76-Meteo-NO2-levels\Gas_vers_scurta\2025-08-01ECS.txt`
+It should write a PNG file for NO2.
+
+---
+
+**Claude Code 7**>/init
+
+--- 
+
+2026-05-28
+
+---
 
 **Claude Code 6**>Remove rows with many NUL from Meteo/18_0904_0908/2025-09-06ECS.txt 2025-09-07ECS.txt and 2025-09-08ECS.txt
 
