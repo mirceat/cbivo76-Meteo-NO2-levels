@@ -1,3 +1,11 @@
+**Claude Code 12**>Edit MeteoGas.py such that it saves PNG for each data columns: NO2,NH3,CO,T,RH,P,DeviceID,NO2ppb
+
+--- 
+
+2026-05-29
+
+---
+
 **Claude Code 11**>Remove rows with many NUL from 
 `D:\work\cristianBivolaru\cbivo76-Meteo-NO2-levels\Gas_vers_scurta\2025-08-26ECS.txt`
 
