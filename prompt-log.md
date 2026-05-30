@@ -1,3 +1,20 @@
+**Claude Code 14**>Remove rows with many NUL from 
+`D:\work\cristianBivolaru\cbivo76-Meteo-NO2-levels\Gas_vers_scurta\2025-08-29ECS_unupload.txt`
+
+`D:\work\cristianBivolaru\cbivo76-Meteo-NO2-levels\Gas_vers_scurta\2025-08-27ECS_unupload.txt`
+
+---
+
+**Claude Code 13**>Write a new file inspired by MeteoGas.py that should work for upload files`D:\work\cristianBivolaru\cbivo76-Meteo-NO2-levels\Gas_vers_scurta\2025-08-05ECS_unupload.txt`
+It should write a PNG file for each data columns: no2,nh3,co,t,rh,p,deviceid,no2ppb,id,pm1,pm25,pm10.
+Skip: latitude,longitude,elevation
+
+--- 
+
+2026-05-30
+
+---
+
 **Claude Code 12**>Edit MeteoGas.py such that it saves PNG for each data columns: NO2,NH3,CO,T,RH,P,DeviceID,NO2ppb
 
 --- 
