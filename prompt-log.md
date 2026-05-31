@@ -1,4 +1,4 @@
-**Claude Code 16**>Remove rows with many NUL from all recursaive subfolders of
+**Claude Code 16**>Remove rows with many NUL from all recursive subfolders of
 `D:\work\cristianBivolaru\cbivo76-Meteo-NO2-levels\airquixmini09_cBivolaru`
 
 --- 
