@@ -37,7 +37,6 @@ The script skips the header, then for each line splits on `,`, parses `Date` and
 
 - `18_0904_0908/` — cleaned input batch the script currently processes.
 - `18_0904_0908out/` — PNG outputs (one per input `.txt`, same basename).
-- `18_0904_0908v1/` — **originals** of the same batch. The raw files contained NUL bytes that broke parsing; bad rows were stripped out before being copied into `18_0904_0908/`. Do not overwrite `v1/` — it is the rescue copy. If you process a new batch and need to strip NULs, follow the same pattern (preserve originals in a `v1`-suffixed folder).
 - `Gas_vers_scurta/` — an older, unprocessed batch (August 2025). The script does **not** read from here; if you need to process it, change `input_dir`/`output_dir` in `Meteo.py` or parameterize them.
 
 The `input_dir` and `output_dir` constants at the top of `Meteo.py` are the only knobs — when asked to process a different batch, edit those two lines.

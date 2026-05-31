@@ -1,3 +1,18 @@
+**Claude Code 18**>Create zip file for all files in  
+`D:\work\cristianBivolaru\cbivo76-Meteo-NO2-levels\airquixmini09_cBivolaru\airquixmini09\GASout`
+containing NO2 or NH3 in the name including _unupload files
+
+---
+
+**Claude Code 17**>Create a new MeteoAirquixmini09.py in `D:\work\cristianBivolaru\cbivo76-Meteo-NO2-levels\src`
+inspired from `D:\work\cristianBivolaru\cbivo76-Meteo-NO2-levels\src\MeteoGas.py`
+input folder: `D:\work\cristianBivolaru\cbivo76-Meteo-NO2-levels\airquixmini09_cBivolaru\airquixmini09\GAS`
+all files, including `*_unupload.txt`
+output folder: `D:\work\cristianBivolaru\cbivo76-Meteo-NO2-levels\airquixmini09_cBivolaru\airquixmini09\GASout`
+PNG files
+
+---
+
 **Claude Code 16**>Remove rows with many NUL from all recursive subfolders of
 `D:\work\cristianBivolaru\cbivo76-Meteo-NO2-levels\airquixmini09_cBivolaru`
 
