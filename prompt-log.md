@@ -1,3 +1,18 @@
+**Claude Code 16**>Remove rows with many NUL from all recursaive subfolders of
+`D:\work\cristianBivolaru\cbivo76-Meteo-NO2-levels\airquixmini09_cBivolaru`
+
+--- 
+
+2026-05-31
+
+---
+
+**Claude Code 15**>Create zip file for all files in  
+`D:\work\cristianBivolaru\cbivo76-Meteo-NO2-levels\Gas_vers_scurtaout`
+containing NO2 or NH3 in the name including _unupload files
+
+---
+
 **Claude Code 14**>Remove rows with many NUL from 
 `D:\work\cristianBivolaru\cbivo76-Meteo-NO2-levels\Gas_vers_scurta\2025-08-29ECS_unupload.txt`
 
