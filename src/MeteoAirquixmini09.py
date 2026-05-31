@@ -5,11 +5,15 @@ import matplotlib.pyplot as plt
 
 input_dir = '../airquixmini09_cBivolaru/airquixmini09/GAS'
 output_dir = '../airquixmini09_cBivolaru/airquixmini09/GASout'
-os.makedirs(output_dir, exist_ok=True)
 
 # All files in this folder (including *_unupload.txt) share the same 9-column
 # header: DateTime,NO2,NH3,CO,T,RH,P,DeviceID,NO2ppb
 columns = ['NO2', 'NH3', 'CO', 'T', 'RH', 'P', 'DeviceID', 'NO2ppb']
+
+# Output is split into one subfolder per column (e.g. GASout/NO2/) so no single
+# folder exceeds GitHub's 1000-file directory listing cap.
+for col in columns:
+    os.makedirs(os.path.join(output_dir, col), exist_ok=True)
 
 # *.txt picks up both *ECS.txt and *ECS_unupload.txt.
 for file_path in glob.glob(os.path.join(input_dir, '*.txt')):
@@ -40,7 +44,7 @@ for file_path in glob.glob(os.path.join(input_dir, '*.txt')):
         plt.title(f'{col} Over Time')
         plt.grid(True)
 
-        output_path = os.path.join(output_dir, f'{base_name}_{col}.png')
+        output_path = os.path.join(output_dir, col, f'{base_name}_{col}.png')
         plt.savefig(output_path)
         plt.close()
         print(f'Saved {output_path}')

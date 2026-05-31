@@ -1,3 +1,7 @@
+**Claude Code 19**>GiHub message: Sorry, we had to truncate this directory to 1,000 files. 168 entries were omitted from the list. Latest commit info may be omitted.
+
+---
+
 **Claude Code 18**>Create zip file for all files in  
 `D:\work\cristianBivolaru\cbivo76-Meteo-NO2-levels\airquixmini09_cBivolaru\airquixmini09\GASout`
 containing NO2 or NH3 in the name including _unupload files
